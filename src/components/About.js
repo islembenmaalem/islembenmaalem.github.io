@@ -20,15 +20,15 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently a <b>in a a final year data engineering student.</b> at
-        <a href="https://www.enetcom.com/"> ENETCOM.</a>
+        <a href="https://enetcom.rnu.tn/fr"> ENETCOM.</a>
 <br/>
-I'm open for intern roles in Data Science or Data Engineering<b></b> in <b> </b>{" "}
-        <a href="https://www.ox.ac.uk/about"></a>.
+I'm open for intern roles in Data Science or Data Engineering<b></b><b> </b>{" "}
+        <a href=""></a>.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the developments of
+        Outside of work and studying, I'm interested in following the developments of
         science.
       </p>
     );
@@ -45,11 +45,19 @@ I'm open for intern roles in Data Science or Data Engineering<b></b> in <b> </b>
 
     const tech_stack = [
       "Python",
+      "R",
       "React.js",
       "Java",
       "HTML & CSS",
       "Scala",
-      "PHP"
+      "PHP",
+      "PyToch",
+      "Tensorflow",
+      "scikit-learn",
+      "Docker",
+      "Git/GitHub",
+      "Hive,Hadoop,Spark",
+
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);

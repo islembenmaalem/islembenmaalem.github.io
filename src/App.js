@@ -16,7 +16,7 @@ function App() {
         <Intro></Intro>
         <About></About>
         <Experience></Experience>
-      
+      <Projects></Projects>
         <Credits></Credits>
       </div>
       <SidebarNav></SidebarNav>

@@ -1,8 +1,6 @@
 import React from "react";
 import "../styles/Projects.css";
 import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
 import FadeInSection from "./FadeInSection";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "react-bootstrap/Carousel";
@@ -138,6 +136,9 @@ class Projects extends React.Component {
             </Carousel.Item>
           ))}
         </Carousel>
+        <br/>
+        <br/>
+        <br/>
         <div className="project-container">
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (
@@ -158,6 +159,9 @@ class Projects extends React.Component {
                   <div className="card-title">{key}</div>
                   <div className="card-desc">{projects[key]["desc"]}</div>
                   <div className="card-tech">{projects[key]["techStack"]}</div>
+                  <br/>
+                  <br/>
+
                 </li>
               </FadeInSection>
             ))}
