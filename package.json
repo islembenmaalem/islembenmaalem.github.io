@@ -2,7 +2,7 @@
   "name": "islem-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://islembenmaalem.github.io/islembenmaalem.github.io",
+  "homepage": "https://islembenmaalem.github.io/",
 
   "dependencies": {
     "@material-ui/icons": "^4.11.3",
