@@ -5,7 +5,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-
+import KaggleIcon from "@material-ui/icons/Assessment"; // Import Kaggle icon from Material-UI
 import "../styles/SidebarNav.css";
 import "react-typist/dist/Typist.css";
 import FadeInSection from "./FadeInSection";
@@ -35,7 +35,9 @@ class SidebarNav extends React.Component {
       <a href="#experience">/experience</a>,
       <a href="#projects">/software-creations</a>
     ];
-
+    const iconStyle = {
+      borderRadius: "50%",
+    };
     return (
       <div className="sidebar-nav">
         {!isMobile && (
@@ -64,10 +66,14 @@ class SidebarNav extends React.Component {
           <a href="https://github.com/islembenmaalem">
             <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
           </a>
-          <a href="https://www.linkedin.com/in/islem-ben-maalem-a5b954220">
-            <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
-          </a>
 
+          <a href="https://www.kaggle.com/islembenmaalem">
+      <img
+        style={iconStyle}
+        src={process.env.PUBLIC_URL + "/assets/th.png"}
+        alt="Kaggle"
+      />
+    </a>
           <a href="https://www.linkedin.com/in/islem-ben-maalem-a5b954220">
             <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
           </a>
