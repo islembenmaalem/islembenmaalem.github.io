@@ -1,2 +1,2 @@
 # islembenmaalem.github.io
-link :  https://islembenmaalem.netlify.app/
+link :  https://gh-pages--islembenmaalem.netlify.app/
