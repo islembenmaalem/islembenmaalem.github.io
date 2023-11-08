@@ -22,7 +22,7 @@
     flex-direction: column;
     /* align-items: flex-start; */
     position: relative;
-    height: 400px;
+    height: 430px;
     padding: 2rem 1.75rem;
     background-color: var(--light-navy);
     border-radius: 16px;

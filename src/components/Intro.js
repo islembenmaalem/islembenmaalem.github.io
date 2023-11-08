@@ -41,6 +41,9 @@ class Intro extends React.Component {
             interest in artificial intelligence, full-stack development, 
             human-computer interactions, and everything in between.
           </div>
+          <div className="intro-desc">
+          Know about my experiences <a href="https://drive.google.com/file/d/198lWYMckdILepjvgqBRtrd-K984hR0Yi/view?usp=sharing">Islem's Resume</a>
+          </div>
           <a
             href="mailto:islembenmoallem0@gmail.com"
             className="intro-contact"
