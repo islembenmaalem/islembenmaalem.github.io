@@ -8,8 +8,14 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Credits from './components/Credits';
 import JobList from './components/JobList';
+import React, { useEffect } from 'react';
+
 
 function App() {
+  useEffect(() => {
+    document.title = "Islem Ben Maalem";
+  }, []);
+  
   return (
     <div className="App">
         <div id="content">
